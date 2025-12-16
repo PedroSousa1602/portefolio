@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(93, 95, 95);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #333; 
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff9900; 
+}
+
+#sobre-mim {
+    padding: 60px 20px;
+    background-color: rgb(93, 95, 95)#333;
+    display: flex;
+    justify-content: center;
+}
+
+.container-sobre {
+    max-width: 1000px;
+    gap: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+}
+
+.foto-perfil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 10px ridge #7c7c7c;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.conteudo-sobre h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #000000;
+    letter-spacing: -1px;
+}
+
+.conteudo-sobre p {
+    font-size: 1.1rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.skills-svg {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px; 
+}
+
+.skills-svg img {
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease; 
+    filter: grayscale(20%); 
+}
+
+.skills-svg img:hover {
+    transform: translateY(-8px); 
+    filter: grayscale(0%) drop-shadow(0 0 10px rgba(255, 255, 255, 0.5)); 
+}
