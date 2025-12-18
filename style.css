@@ -33,7 +33,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff9900; 
+    color: #959798; 
 }
 
 #sobre-mim {
@@ -46,10 +46,11 @@ header nav ul li a:hover {
 .container-sobre {
     max-width: 1000px;
     gap: 50px; 
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(50%);
+    transform: translateY(-50px, -50px);
 }
 
 .foto-perfil img {
