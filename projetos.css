@@ -33,9 +33,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff9900; 
+    color: #959798; 
 }
 
+.p2 p {
+    text-align: center;
+    font-size: bold;
+}
 #projetos {
     padding: 40px;
     background-color: rgb(93, 95, 95); 
@@ -44,7 +48,6 @@ header nav ul li a:hover {
 
 .titulo-seccao {
     text-align: center;
-    margin-bottom: 50px;
     font-size: 2.5rem;
 }
 
@@ -52,12 +55,14 @@ header nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 30px;
+    padding: 40px 0;
     margin: 0 auto;
 }
 
 .card-projeto {
     background-color: #444;
     border-radius: 10px;
+    border: 3px solid #999999;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -97,8 +102,8 @@ header nav ul li a:hover {
 
 .btn {
     padding: 8px 16px;
-    background-color: #00d8ff;
-    color: #000;
+    background-color: #2b2a2a;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
