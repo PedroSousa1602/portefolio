@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" type="image/png" href="image/icon.png"/>
+    <title>Portefolio Pedro Sousa</title>
 </head>
 <body>
     <header>
@@ -17,7 +18,37 @@
             </ul>
         </nav>
     </header>
-    <h1>Sobre Mim</h1>
-        <p>Olá! Meu nome é [Seu Nome] e sou um desenvolvedor web</p>
+    <section id="contato">
+    <div class="container-contato">
+        <h2>Vamos Conversar?</h2>
+        <strong><p>Estou disponível para novos projetos e oportunidades!</p></strong>
+
+        <div class="contato-wrapper">
+        <div class="contato-info">
+            <div class="info-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/15047/15047587.png" alt="Email" width="30">
+            <span>pedrocgs2006@gmail.com</span>
+            </div>
+            <div class="info-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="30">
+            <span>LinkedIn | pedrosousa</span>
+            </div>
+            <div class="info-item">
+            <div class="imggit">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30">
+            </div>
+            <span>GitHub | pedrocgs2006</span>
+            </div>
+        </div>
+
+        <form class="contato-form">
+            <input type="text" placeholder="Teu Nome" required>
+            <input type="email" placeholder="Teu E-mail" required>
+            <textarea placeholder="Como posso ajudar?" rows="5" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+        </div>
+    </div>
+    </section>
 </body>
 </html>
